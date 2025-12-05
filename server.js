@@ -61,6 +61,12 @@ app.post('/api/generate-searchbar', async (req, res) => {
         },
         {
           type: "code_interpreter"
+        },
+        {
+          type: "mcp",
+          "server_label": "Tavily",
+          "server_url": "https://mcp.tavily.com/mcp/?tavilyApiKey=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",
+          "headers": {}
         }
       ]
     });
